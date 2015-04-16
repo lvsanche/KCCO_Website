@@ -1,128 +1,61 @@
-<!DOCTYPE html>
-<html>
+.neighborhood-guides{
+  background-color:#efefef;
+  border-bottom: 1px solid #dbdbdb;
+}
+.neighborhood-guides h2{
+  color:#393c3d;
+  font-size:24px;
+}
+.neighborhood-guides p{
+  font-size: 15px;
+  margin-bottom:13px;
+}
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
 
-  <head>
-    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-    
-    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-    <link rel="stylesheet" href="main.css">
-    
-  </head>
+.nav li {
+  display: inline;
+}
 
-  <body>
-    <div class="nav">
-      <div class="container">
-        <ul class="pull-left">
-          <li><a href="#">Name</a></li>
-          <li><a href="#">Browse</a></li>
-        </ul>
-        <ul class="pull-right">
-          <li><a href="#">Sign Up</a></li>
-          <li><a href="#">Log In</a></li>
-          <li><a href="#">Help</a></li>
-        </ul>
-      </div>
-    </div>
+.jumbotron {
+  background-image:url('http://goo.gl/04j7Nn');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Meet KCCO</h1>
-        <p>Name of App</p>
-      </div>
-    </div> 
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
 
-    <div class="neighborhood-guides">
-        <div class="container">
-            <h2>Problem</h2>
-            <p>Description and our solution</p>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <img src="http://goo.gl/0sX3jq" >
-                    </div>
-                    <div class="thumbnail">
-                        <img src="http://goo.gl/an2HXY" >
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <img src="http://goo.gl/Av1pac" >
-                    </div>
-                    <div class="thumbnail">
-                        <img src="http://goo.gl/vw43v1" >
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <img src="http://goo.gl/0Kd7UO" >
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="learn-more">
-	  <div class="container">
-		<div class="row">
-	      <div class="col-md-4">
-			<h3>Business Analyst</h3>
-			<p>Yuying Teresa Chen</p>
-			<p><a href="#">.......</a></p>
-	      </div>
-		  <div class="col-md-4">
-			<h3>Software Development Lead</h3>
-			<p>Gaojie Li</p>
-			<p><a href="#">.......</a></p>
-		  </div>
-		  <div class="col-md-4">
-			<h3>User Interface Specialist</h3>
-			<p>Weijung Hsu</p>
-			<p><a href="#">......</a></p>
-		  </div>
-	    </div>
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
 
-		<div class="row">
-	      <div class="col-md-4">
-			<h3>Project Manager</h3>
-			<p>Luis Vicente Sanchez</p>
-			<p><a href="#">.......</a></p>
-	      </div>
-		  <div class="col-md-4">
-			<h3>Senior System Analyst</h3>
-			<p>Yaolin Guo</p>
-			<p><a href="#">.......</a></p>
-		  </div>
-		  <div class="col-md-4">
-			<h3>Algorithm Specialist</h3>
-			<p>Renquan Jiang</p>
-			<p><a href="#">......</a></p>
-		  </div>
-	    </div>
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
 
-		<div class="row">
-	      <div class="col-md-4">
-			<h3>Quality Assurance Lead</h3>
-			<p>Lauren mao Luen Liu</p>
-			<p><a href="#">.......</a></p>
-	      </div>
-		  <div class="col-md-4">
-			<h3>Algorithm Specialist</h3>
-			<p>David Chi Han Luu</p>
-			<p><a href="#">.......</a></p>
-		  </div>
-		  <div class="col-md-4">
-			<h3>Database Specialist</h3>
-			<p>Ka Ngai Chan</p>
-			<p><a href="#">......</a></p>
-		  </div>
-		</div>
-		<div class="row">
-	      <div class="col-md-4">
-			<h3>Software Architect</h3>
-			<p>Jason Shen</p>
-			<p><a href="#">.......</a></p>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-  </body>
-</html>
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
