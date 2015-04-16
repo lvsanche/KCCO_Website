@@ -39,13 +39,11 @@
   font-size: 48px;  
   font-family: 'Shift', sans-serif;
   font-weight: bold;
-  padding-left: 370px;
 }
 
 .jumbotron p {
   font-size: 30px;
   color: #000;
-  padding-left: 410px;
 }
 
 .learn-more {
@@ -62,8 +60,8 @@
   color: #00b0ff;
 }
 
-.neighborhood-guides .container{
-  padding-left: 400px;
+.neighborhood-guides .container {
+  
 
 }
 .neighborhood-guides .container p{
